@@ -1,0 +1,19 @@
+@media (max-width:600px) {
+
+   body{
+    font-size: 50%;
+    box-sizing: border-box;
+   }
+   .grid{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+   }
+   header{
+    height: 50vh;
+   }
+   .background-image h1{
+    font-size: 4em;
+    font-weight: bold;
+    margin-top: 50px;
+}
+}
